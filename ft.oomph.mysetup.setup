@@ -61,6 +61,20 @@
         xsi:type="setup.p2:P2Task"
         label="ftl's Eclipse Setup (Mars)">
       <requirement
+          name="AnyEditTools.feature.group"/>
+      <requirement
+          name="com.mountainminds.eclemma.feature.feature.group"/>
+      <requirement
+          name="edu.umd.cs.findbugs.plugin.eclipse.feature.group"/>
+      <requirement
+          name="JDepend4Eclipse.feature.group"/>
+      <requirement
+          name="net.sourceforge.plantuml.feature.feature.group"/>
+      <requirement
+          name="realignment.jd.ide.eclipse.feature.feature.group"
+          versionRange="[1.0.0,2.0.0)"
+          optional="true"/>
+      <requirement
           name="epp.package.committers"
           versionRange="[4.5.0,4.6.0)"/>
       <requirement
@@ -76,10 +90,6 @@
           name="org.eclipse.pde.feature.group"
           versionRange="[3.11.0,3.12.0)"/>
       <requirement
-          name="AnyEditTools.feature.group"/>
-      <requirement
-          name="com.mountainminds.eclemma.feature.feature.group"/>
-      <requirement
           name="org.bwgz.eclipse.icon.archive.feature.group"/>
       <requirement
           name="org.eclipse.wst.xml_ui.feature.feature.group"/>
@@ -88,15 +98,9 @@
       <requirement
           name="org.eclipse.mylyn.github.feature.feature.group"/>
       <requirement
-          name="edu.umd.cs.findbugs.plugin.eclipse.feature.group"/>
-      <requirement
-          name="JDepend4Eclipse.feature.group"/>
-      <requirement
           name="org.eclipse.m2e.feature.feature.group"/>
       <requirement
           name="org.eclipse.mat.feature.feature.group"/>
-      <requirement
-          name="net.sourceforge.plantuml.feature.feature.group"/>
       <requirement
           name="org.eclipse.scout.feature.group"/>
       <requirement
@@ -273,6 +277,12 @@
           name="org.eclipse.libra.warproducts.feature.feature.group"/>
       <requirement
           name="org.eclipse.wst.server_adapters.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jpt.dbws.eclipselink.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jpt.jaxb.eclipselink.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jpt.jpa.eclipselink.feature.feature.group"/>
       <requirement
           name="org.jkiss.dbeaver.ext.generic.feature.group"/>
       <requirement
@@ -467,12 +477,10 @@
           name="org.jboss.tools.aerogear.thym.feature.feature.group"/>
       <requirement
           name="org.jboss.tools.feedhenry.feature.group"/>
-      <requirement
-          name="realignment.jd.ide.eclipse.feature.feature.group"
-          versionRange="[1.0.0,2.0.0)"
-          optional="true"/>
       <repository
           url="http://download.eclipse.org/technology/epp/packages/mars"/>
+      <repository
+          url="http://download.eclipse.org/releases/mars/"/>
       <repository
           url="http://download.eclipse.org/releases/mars/201510021000"/>
       <repository
