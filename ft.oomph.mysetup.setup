@@ -284,6 +284,16 @@
       <requirement
           name="org.eclipse.jpt.jpa.eclipselink.feature.feature.group"/>
       <requirement
+          name="org.eclipse.egit.feature.group"/>
+      <requirement
+          name="org.eclipse.egit.gitflow.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.egit.mylyn.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.github.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.git.feature.group"/>
+      <requirement
           name="org.jkiss.dbeaver.ext.generic.feature.group"/>
       <requirement
           name="org.jkiss.dbeaver.ext.mysql.feature.group"/>
