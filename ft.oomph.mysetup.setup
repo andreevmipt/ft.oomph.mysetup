@@ -294,6 +294,10 @@
       <requirement
           name="org.eclipse.mylyn.git.feature.group"/>
       <requirement
+          name="org.eclipse.team.svn.feature.group"/>
+      <requirement
+          name="org.eclipse.team.svn.revision.graph.feature.group"/>
+      <requirement
           name="org.jkiss.dbeaver.ext.generic.feature.group"/>
       <requirement
           name="org.jkiss.dbeaver.ext.mysql.feature.group"/>
@@ -509,6 +513,8 @@
           url="http://dist.springsource.com/release/TOOLS/update/e4.5/"/>
       <repository
           url="http://download.jboss.org/jbosstools/mars/development/updates/"/>
+      <repository
+          url="http://download.eclipse.org/technology/subversive/1.1/update-site/"/>
     </setupTask>
   </version>
   <description>Package suited for development of &lt;a href=&quot;http://www.eclipse.org/vex&quot;>Vex&lt;/a> and all the other Java stuff that I do: based on the Eclipse IDE for Eclipse Committers adding all the tools that I usually use.</description>
