@@ -498,23 +498,25 @@
       <repository
           url="http://download.eclipse.org/releases/mars/201510021000"/>
       <repository
+          url="http://download.jboss.org/jbosstools/mars/development/updates/"/>
+      <repository
+          url="http://dist.springsource.com/release/TOOLS/update/e4.5/"/>
+      <repository
           url="http://andrei.gmxhome.de/eclipse/"/>
       <repository
           url="http://update.eclemma.org/"/>
       <repository
           url="http://download.bwgz.org/eclipse/org.bwgz.eclipse.icon.archive.update/site.xml"/>
       <repository
-          url="http://plantuml.sourceforge.net/updatesitejuno"/>
-      <repository
           url="http://mchr3k-eclipse.appspot.com/"/>
       <repository
           url="http://dbeaver.jkiss.org/update/3.4.5/"/>
       <repository
-          url="http://dist.springsource.com/release/TOOLS/update/e4.5/"/>
-      <repository
-          url="http://download.jboss.org/jbosstools/mars/development/updates/"/>
+          url="http://plantuml.sourceforge.net/updatesitejuno"/>
       <repository
           url="http://download.eclipse.org/technology/subversive/1.1/update-site/"/>
+      <repository
+          url="http://download.forge.objectweb.org/eclipse-update/"/>
     </setupTask>
   </version>
   <description>Package suited for development of &lt;a href=&quot;http://www.eclipse.org/vex&quot;>Vex&lt;/a> and all the other Java stuff that I do: based on the Eclipse IDE for Eclipse Committers adding all the tools that I usually use.</description>
