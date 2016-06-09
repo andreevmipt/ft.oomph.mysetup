@@ -497,6 +497,38 @@
           name="org.nodeclipse.enide.nodejs.feature.feature.group"/>
       <requirement
           name="com.palantir.typescript.feature.feature.group"/>
+      <requirement
+          name="tern.eclipse.ide.server.nodejs.embed.feature.group"/>
+      <requirement
+          name="tern.eclipse.ide.debugger.nodeclipse"/>
+      <requirement
+          name="tern.eclipse.ide.debugger.webclipse"/>
+      <requirement
+          name="minimal-json"/>
+      <requirement
+          name="minimatch.java"/>
+      <requirement
+          name="tern-feature.feature.group"/>
+      <requirement
+          name="tern-jsdt-feature.feature.group"/>
+      <requirement
+          name="tern-linters-feature.feature.group"/>
+      <requirement
+          name="tern-server-nodejs-feature.feature.group"/>
+      <requirement
+          name="tern.eclipse.ide.tools.feature.feature.group"/>
+      <requirement
+          name="tern.eclipse.ide.server.nodejs.embed.source.feature.group"/>
+      <requirement
+          name="tern-feature.source.feature.group"/>
+      <requirement
+          name="tern-jsdt-feature.source.feature.group"/>
+      <requirement
+          name="tern-linters-feature.source.feature.group"/>
+      <requirement
+          name="tern-server-nodejs-feature.source.feature.group"/>
+      <requirement
+          name="tern.eclipse.ide.tools.feature.source.feature.group"/>
       <repository
           url="http://download.eclipse.org/technology/epp/packages/mars"/>
       <repository
@@ -527,6 +559,8 @@
           url="http://www.nodeclipse.org/updates/"/>
       <repository
           url="http://eclipse-update.palantir.com/eclipse-typescript-develop/"/>
+      <repository
+          url="http://oss.opensagres.fr/tern.repository/1.1.0/"/>
     </setupTask>
   </version>
   <description>Package suited for development of &lt;a href=&quot;http://www.eclipse.org/vex&quot;>Vex&lt;/a> and all the other Java stuff that I do: based on the Eclipse IDE for Eclipse Committers adding all the tools that I usually use.</description>
